@@ -103,7 +103,7 @@ RSpec.describe ArtistsController, type: :controller do
       end
     end
   end
-  
+
   describe "DELETE #destroy" do
     it "destroys the requested artist" do
       artist = create(:artist)
